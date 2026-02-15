@@ -1,0 +1,114 @@
+/* STYLE SECTIONING TAGS */
+body {
+    background-image: radial-gradient(#F4F9E9, #809BCE);
+    text-align: center;
+    
+}
+
+/* STYLE TEXT */
+#hook {
+    color: #ED254E;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #FF9B54; 
+    background-color: #F4F9E9;
+    padding: 5px;
+    font-style: italic;
+}
+#title{
+    text-align: center;
+    font-size: 100px;
+    color: #090446;
+
+}
+
+h1 {
+  color: navy;
+}
+
+/* STYLE FLEX CONTAINER */
+
+.mbti1{
+    display: inline;
+}
+
+.mbti2{
+    display: inline;
+}
+
+button {
+    
+    background-image: radial-gradient(#F78764);
+    padding: 5px;
+    font-size: 15px;
+    color: #162521;
+    text-decoration: none;
+    font-size: 1.5em;
+        font-family: calibri;
+        border-radius: 3px;
+        border: 2px solid #F55536;
+        padding: 1rem 2rem;
+        
+        position: relative;
+        inset: 0;
+        cursor: pointer;
+        transform: rotateX(0), rotateY(0) rotateZ(0);
+        display: inline-block;
+        outline: 2px dashed transparent;
+        transition: all 600ms ease;
+        margin: 9px;
+        cursor:pointer;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  background-image: radial-gradient(#E0EFDA,#C0E0DE);
+    border: #ED254E solid 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.qtext{
+    margin-top: 80px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-image: radial-gradient(#E0EFDA,#C0E0DE );
+    font-size: 55px;
+    border: 5px dashed #2A324B;
+    padding: 5px;
+}
+
+
+
+
+button:hover {
+       background-image: radial-gradient(#F9A48B)    
+    }
+
+
+
+button:disabled {
+            pointer-events: none;
+            opacity: 0.65;
+
+        }
+
+
+#result{
+    font-size: 50px;
+}
+
+#name{
+    font-family: "Holtwood One SC";
+    font-size: 125px;
+    font-weight: 700;
+    font-style: italic;
+    background: linear-gradient(to right, #ff0000, #0000ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    border: 5px #0A0C08;
+
+}
